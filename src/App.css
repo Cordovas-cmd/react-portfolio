@@ -32,6 +32,13 @@ nav ul li {
   border-top: 0.1875rem solid var
 } */
 
+@media(max-width: 768px) {
+  .navbar-brand {
+    width: 4rem;
+  }
+}
+
+
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
 border-top: 0.1875rem solid var(--primary-pink);
 /* border-bottom: 0.1875rem solid var(--primary-pink); */
@@ -73,6 +80,12 @@ text-transform: uppercase;
 -webkit-text-stroke: 1.2px rgb(32, 2, 32);
 }
 
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5rem !important
+  }
+}
+
 
 /* ----------TYPED TEXT------------- */
 
@@ -81,8 +94,18 @@ text-transform: uppercase;
   color: #fff;
   -webkit-text-stroke: 1.5px rgb(32, 2, 32);
 
-  
 }
+
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important
+  }
+  .typed-text {
+    font-size: 1.3rem !important
+  }
+}
+
+
 /* -------HEADER MAIN OFFER BUTTON------- */
 .btn-main-offer {
   border: 0.300rem solid;
@@ -110,3 +133,8 @@ text-transform: uppercase;
   color:rgb(118, 41, 190)
 }
 
+@media(max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+}
