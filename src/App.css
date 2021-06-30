@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+
+
+/* Import google font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --primary-pink:rgb(158, 14, 172);
+}
+/* ------------Menu buttons-------------- */
+*{
+  font-family: 'Press Start 2P', cursive;}
+nav a.nav-link {
+  font-size: small;
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav ul li {
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  border-top: 0.1875rem solid var
+} */
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+border-top: 0.1875rem solid var(--primary-pink);
+/* border-bottom: 0.1875rem solid var(--primary-pink); */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav > li > a:hover {
+  
+  border-top: 0.1875rem solid var(--primary-pink);
 }
