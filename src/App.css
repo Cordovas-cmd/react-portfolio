@@ -35,3 +35,44 @@ border-top: 0.1875rem solid var(--primary-pink);
   
   border-top: 0.1875rem solid var(--primary-pink);
 }
+
+.header-wrapper {
+  position: relative;
+  background: url(yes.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.main-info h1 {
+color: rgb(123, 32, 241);
+text-transform: uppercase;
+-webkit-text-stroke: 1.2px rgb(32, 2, 32);
+}
+
+
+/* ----------TYPED TEXT------------- */
+
+.typed-text {
+  font-size: 2rem;
+  color: #fff;
+  -webkit-text-stroke: 1.5px rgb(32, 2, 32);
+
+  
+}
+/* -------HEADER MAIN OFFER BUTTON------- */
+.btn-main-offer {
+  border: 1px solid;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 12px 12px
+}
