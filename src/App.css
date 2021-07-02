@@ -138,3 +138,25 @@ text-transform: uppercase;
     display: none;
   }
 }
+
+.portfoliobg {
+background-color: cadetblue;
+}
+.col {
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+}
+
+.Projects {
+  padding-top: 0.75rem;
+}
+
+.projbtn {
+  border: 0.300rem solid;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: rgb(236, 236, 236);
+  -webkit-text-stroke: 1px rgb(6, 7, 6);
+  font-size: 1.05rem;
+  background-color: rgb(250, 250, 250);
+}
