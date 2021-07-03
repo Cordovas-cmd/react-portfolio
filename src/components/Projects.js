@@ -28,7 +28,7 @@ function Projects() {
                     <img src={process.env.PUBLIC_URL+"/assets/images/TeamProfile.png"} className="card-img-top" alt="stellar-sonic-screenshot" />
                         <div className="card-body">
                             <h5 className="card-title">Team Profile Gen</h5>
-                            <p className="card-text">Creates a team profile for each member of your team.</p>
+                            <p className="card-text">Creates a team profile for each member of your team.Very useful. </p>
                             <a role="button" href="github goes here" target="__blank" className="projbtn  ">Repository</a>
                             <a href="deployement goes here" target="__blank" className="projbtn  ">Webpage</a>
                             
