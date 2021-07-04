@@ -8,7 +8,7 @@ function Projects() {
        <Fade left>
         <section className="portfoliobg">
        
-        <h2 className= "Projects" style={{fontSize:"25px"}}>My Projects</h2>
+        <h2 className= "portfolio" id= "portfolio" style={{fontSize:"25px"}}>My Projects</h2>
         <div className="row">
             <div className="col col-md-4">
               
@@ -24,11 +24,37 @@ function Projects() {
                 
             </div>
             <div className="col col-md-4">
+              
+                <div className="card" >
+                    <img src={process.env.PUBLIC_URL + "/assets/images/Notetaker.png"} className="card-img-top" alt="send-foodz-screenshot"/>
+                        <div className="card-body">
+                            <h5 className="card-title">Lorecraft</h5>
+                            <p className="card-text">A WIP app that allows you to create an account, post, and view lore of some of your favorite games.</p>
+                            <a role="button" href="github goes here" target="__blank" className="projbtn">Repository</a>
+                            <a role="button" href="deployement goes here" target="__blank" className="projbtn">Webpage</a>
+                        </div>
+                </div>
+                
+            </div>
+            <div className="col col-md-4">
+              
+                <div className="card" >
+                    <img src={process.env.PUBLIC_URL + "/assets/images/Notetaker.png"} className="card-img-top" alt="send-foodz-screenshot"/>
+                        <div className="card-body">
+                            <h5 className="card-title">buget tracker</h5>
+                            <p className="card-text">A digital budget tracker to easily keep track of funds and expenses.</p>
+                            <a role="button" href="github goes here" target="__blank" className="projbtn">Repository</a>
+                            <a role="button" href="deployement goes here" target="__blank" className="projbtn">Webpage</a>
+                        </div>
+                </div>
+                
+            </div>
+            <div className="col col-md-4">
                 <div className="card">
                     <img src={process.env.PUBLIC_URL+"/assets/images/TeamProfile.png"} className="card-img-top" alt="stellar-sonic-screenshot" />
                         <div className="card-body">
-                            <h5 className="card-title">Team Profile Gen</h5>
-                            <p className="card-text">Creates a team profile for each member of your team.Very useful. </p>
+                            <h5 className="card-title">workout tracker</h5>
+                            <p className="card-text">Tracks your workout routine so you can keep track and reach your goals :)</p>
                             <a role="button" href="github goes here" target="__blank" className="projbtn  ">Repository</a>
                             <a href="deployement goes here" target="__blank" className="projbtn  ">Webpage</a>
                             

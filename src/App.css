@@ -140,7 +140,9 @@ text-transform: uppercase;
 }
 
 .portfoliobg {
+  position: relative;
 background-color: cadetblue;
+
 }
 .col {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
@@ -148,6 +150,9 @@ background-color: cadetblue;
 
 .Projects {
   padding-top: 0.75rem;
+}
+.card {
+  
 }
 
 .projbtn {
@@ -159,4 +164,23 @@ background-color: cadetblue;
   -webkit-text-stroke: 1px rgb(6, 7, 6);
   font-size: 1.05rem;
   background-color: rgb(250, 250, 250);
+}
+@media(max-width: 768px) {
+  .projbtn {
+   font-size: 0.75rem;
+  }
+}
+
+#contact {
+  float: left; 
+ margin-top: 0rem;
+   margin-left: 20px; 
+   margin-bottom: 30px; 
+   background-color: rgb(152, 251, 218);
+}
+
+#contactbtn {
+  margin-bottom: 10px; 
+  background-color: black; 
+  color: white;
 }
