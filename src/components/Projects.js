@@ -73,6 +73,18 @@ function Projects() {
                         </div>
                 </div>
             </div>
+            <div className="col col-md-4">
+                <div className="card">
+                    <img src={process.env.PUBLIC_URL+"/assets/images/WeatherDashboard.png"} className="card-img-top" alt="employee-directory-screenshot" />
+                        <div className="card-body">
+                            <h5 className="card-title">Weather Dashboard</h5>
+                            <p className="card-text">Geolaction based Weather app that let's users search and display current weeks forcast.</p>
+                            <a role="button" href="https://github.com/Cordovas-cmd/Weather-dashboard" target="__blank" className="projbtn  ">Repository</a>
+                            <a href="https://cordovas-cmd.github.io/Weather-dashboard/" target="__blank" className="projbtn  ">Webpage</a>
+                            
+                        </div>
+                </div>
+            </div>
        
         </div>
         </section>
