@@ -13,7 +13,7 @@ function Projects() {
             <div className="col col-md-4">
               
                 <div className="card" >
-                    <img src={process.env.PUBLIC_URL + "/assets/images/Notetaker.png"} className="card-img-top" alt="send-foodz-screenshot"/>
+                    <img src={process.env.PUBLIC_URL + "/assets/images/Notetaker.png"} className="card-img-top" alt="note-taker-screenshot"/>
                         <div className="card-body">
                             <h5 className="card-title">Note Taker</h5>
                             <p className="card-text">An app that takes notes for you and your busy schedule.</p>
@@ -26,12 +26,12 @@ function Projects() {
             <div className="col col-md-4">
               
                 <div className="card" >
-                    <img src={process.env.PUBLIC_URL + "/assets/images/Notetaker.png"} className="card-img-top" alt="send-foodz-screenshot"/>
+                    <img src={process.env.PUBLIC_URL + "/assets/images/lorecraft.png"} className="card-img-top" alt="lorecraft-screenshot"/>
                         <div className="card-body">
                             <h5 className="card-title">Lorecraft</h5>
                             <p className="card-text">A WIP app that allows you to create an account, post, and view lore of some of your favorite games.</p>
                             <a role="button" href="https://github.com/madison-vega/lore-craft" target="__blank" className="projbtn">Repository</a>
-                            <a role="button" href="deployement goes here" target="__blank" className="projbtn">Webpage</a>
+                            <a role="button" href="https://lore-craft.herokuapp.com/" target="__blank" className="projbtn">Webpage</a>
                         </div>
                 </div>
                 
@@ -39,7 +39,7 @@ function Projects() {
             <div className="col col-md-4">
               
                 <div className="card" >
-                    <img src={process.env.PUBLIC_URL + "/assets/images/Notetaker.png"} className="card-img-top" alt="send-foodz-screenshot"/>
+                    <img src={process.env.PUBLIC_URL + "/assets/images/BudgetTracker.png"} className="card-img-top" alt="buget-tracker-screenshot"/>
                         <div className="card-body">
                             <h5 className="card-title">Budget tracker</h5>
                             <p className="card-text">A digital budget tracker to easily keep track of funds and expenses.</p>
@@ -51,7 +51,7 @@ function Projects() {
             </div>
             <div className="col col-md-4">
                 <div className="card">
-                    <img src={process.env.PUBLIC_URL+"/assets/images/TeamProfile.png"} className="card-img-top" alt="stellar-sonic-screenshot" />
+                    <img src={process.env.PUBLIC_URL+"/assets/images/workouttracker.png"} className="card-img-top" alt="wrkout-tracker-screenshot" />
                         <div className="card-body">
                             <h5 className="card-title">workout tracker</h5>
                             <p className="card-text">Tracks your workout routine so you can keep track and reach your goals :)</p>
@@ -63,7 +63,7 @@ function Projects() {
             </div>
             <div className="col col-md-4">
                 <div className="card">
-                    <img src={process.env.PUBLIC_URL+"/assets/images/WorkdayScheduler.png"} className="card-img-top" alt="employee-directory-screenshot" />
+                    <img src={process.env.PUBLIC_URL+"/assets/images/WorkdayScheduler.png"} className="card-img-top" alt="workday-scheduler-screenshot" />
                         <div className="card-body">
                             <h5 className="card-title">Work Day Scheduler</h5>
                             <p className="card-text">Creates a schedule for your busy workday.</p>

@@ -29,6 +29,16 @@ const Contact = () => {
                         </form>
 
                     </section>
+                    <section className="col-md-6">
+                       <div>
+                         
+                            <a href="https://github.com/Cordovas-cmd" target="__blank" className="projbtn" id="linkbtn" >Github</a>
+                            <br></br>
+                            <br></br>
+                            <a href="https://www.linkedin.com/in/samuel-cordova-0495b5174/" target="__blank" className="projbtn" id="linkbtn">LinkedIn</a>
+                     
+                       </div>
+                    </section>
                     </div>
             </section>
         </section>
