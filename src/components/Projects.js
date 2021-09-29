@@ -75,7 +75,7 @@ function Projects() {
             </div>
             <div className="col col-md-4">
                 <div className="card">
-                    <img src={process.env.PUBLIC_URL+"/assets/images/WeatherDashboard.png"} className="card-img-top" alt="employee-directory-screenshot" />
+                    <img src={process.env.PUBLIC_URL+"/assets/images/WeatherDashboard.png"} className="card-img-top" alt="weather dashboard app" />
                         <div className="card-body">
                             <h5 className="card-title">Weather Dashboard</h5>
                             <p className="card-text">Geolaction based Weather app that let's users search and display current weeks forcast.</p>
