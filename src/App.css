@@ -141,7 +141,7 @@ text-transform: uppercase;
 
 .portfoliobg {
   position: relative;
-background-color: cadetblue;
+background-color: rgb(67, 73, 73);
 
 }
 .col {
@@ -151,8 +151,8 @@ background-color: cadetblue;
 .Projects {
   padding-top: 0.75rem;
 }
-.card {
-  
+.cards {
+  height: 50%;
 }
 
 .projbtn {
@@ -176,18 +176,31 @@ background-color: cadetblue;
  margin-top: 0rem;
    margin-left: 20px; 
    margin-bottom: 30px; 
-   background-color: rgb(152, 251, 218);
+   background-color: rgb(58, 59, 59);
 }
 
 #contactbtn {
   margin-bottom: 10px; 
   background-color: black; 
   color: white;
+  padding: px;
 }
 
 #linkbtn {
-  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  /* padding: 0.625rem 0.75rem 0.75rem 0.75rem; */
+  margin: 3px;
+  
+  padding: 10px;
 
+}
+
+.email {
+  color:rgb(189, 187, 189);
+  background-color:rgb(6, 7, 6);
+  border: 3px;
+  padding: 5px;
+  width: 50%;
+  
 }
 @media(max-width: 768px) {
   #linkbtn {

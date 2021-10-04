@@ -10,7 +10,7 @@ function Projects() {
        
         <h2 className= "portfolio" id= "portfolio" style={{fontSize:"25px"}}>My Projects</h2>
         <div className="row">
-            <div className="col col-md-4">
+            <div className="col col-sm-4 cards">
               
                 <div className="card" >
                     <img src={process.env.PUBLIC_URL + "/assets/images/Notetaker.png"} className="card-img-top" alt="note-taker-screenshot"/>
@@ -23,7 +23,7 @@ function Projects() {
                 </div>
                 
             </div>
-            <div className="col col-md-4">
+            <div className="col col-sm-4 cards">
               
                 <div className="card" >
                     <img src={process.env.PUBLIC_URL + "/assets/images/lorecraft.png"} className="card-img-top" alt="lorecraft-screenshot"/>
@@ -36,7 +36,7 @@ function Projects() {
                 </div>
                 
             </div>
-            <div className="col col-md-4">
+            <div className="col col-sm-4 cards">
               
                 <div className="card" >
                     <img src={process.env.PUBLIC_URL + "/assets/images/BudgetTracker.png"} className="card-img-top" alt="buget-tracker-screenshot"/>
@@ -49,7 +49,7 @@ function Projects() {
                 </div>
                 
             </div>
-            <div className="col col-md-4">
+            <div className="col col-sm-4 cards">
                 <div className="card">
                     <img src={process.env.PUBLIC_URL+"/assets/images/workouttracker.png"} className="card-img-top" alt="wrkout-tracker-screenshot" />
                         <div className="card-body">
@@ -61,7 +61,7 @@ function Projects() {
                         </div>
                 </div>
             </div>
-            <div className="col col-md-4">
+            <div className="col col-sm-4 cards">
                 <div className="card">
                     <img src={process.env.PUBLIC_URL+"/assets/images/WorkdayScheduler.png"} className="card-img-top" alt="workday-scheduler-screenshot" />
                         <div className="card-body">
@@ -73,7 +73,7 @@ function Projects() {
                         </div>
                 </div>
             </div>
-            <div className="col col-md-4">
+            <div className="col col-sm-4 cards">
                 <div className="card">
                     <img src={process.env.PUBLIC_URL+"/assets/images/WeatherDashboard.png"} className="card-img-top" alt="weather dashboard app" />
                         <div className="card-body">

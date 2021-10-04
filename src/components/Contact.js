@@ -36,6 +36,9 @@ const Contact = () => {
                             <br></br>
                             <br></br>
                             <a href="https://www.linkedin.com/in/samuel-cordova-0495b5174/" target="__blank" className="projbtn" id="linkbtn">LinkedIn</a>
+                            <br></br>
+                            <br></br>
+                            <p class="email">Email: Cordovas1337@gmail.com</p>
                      
                        </div>
                     </section>
