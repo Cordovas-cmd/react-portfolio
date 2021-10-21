@@ -5,15 +5,16 @@ import Fade from 'react-reveal/Fade';
 function Projects() {
 
     return (
-       <Fade left>
+        <>
         <section className="portfoliobg">
        
         <h2 className= "portfolio" id= "portfolio" style={{fontSize:"25px"}}>My Projects</h2>
-        <div className="row">
-            <div className="col col-sm-4 cards">
-              
-                <div className="card" >
-                    <img src={process.env.PUBLIC_URL + "/assets/images/Notetaker.png"} className="card-img-top" alt="note-taker-screenshot"/>
+       
+       <Fade left>
+             <div className="row">
+                
+                <div className="card col-5 " >
+                    <img id="picture" src={process.env.PUBLIC_URL + "/assets/images/Notetaker.png"} className="card-img-top" alt="note-taker-screenshot"/>
                         <div className="card-body">
                             <h5 className="card-title">Note Taker</h5>
                             <p className="card-text">An app that takes notes for you and your busy schedule.</p>
@@ -22,11 +23,10 @@ function Projects() {
                         </div>
                 </div>
                 
-            </div>
-            <div className="col col-sm-4 cards">
+        
               
-                <div className="card" >
-                    <img src={process.env.PUBLIC_URL + "/assets/images/lorecraft.png"} className="card-img-top" alt="lorecraft-screenshot"/>
+                <div className="card col-5"  >
+                    <img id="picture" src={process.env.PUBLIC_URL + "/assets/images/lorecraft.png"} className="card-img-top" alt="lorecraft-screenshot"/>
                         <div className="card-body">
                             <h5 className="card-title">Lorecraft</h5>
                             <p className="card-text">A WIP app that allows you to create an account, post, and view lore of some of your favorite games.</p>
@@ -34,12 +34,13 @@ function Projects() {
                             <a role="button" href="https://lore-craft.herokuapp.com/" target="__blank" className="projbtn">Webpage</a>
                         </div>
                 </div>
+                </div>
                 
-            </div>
-            <div className="col col-sm-4 cards">
-              
-                <div className="card" >
-                    <img src={process.env.PUBLIC_URL + "/assets/images/BudgetTracker.png"} className="card-img-top" alt="buget-tracker-screenshot"/>
+          
+                <div className="row">
+
+                <div className="card col-5" >
+                    <img id="picture" src={process.env.PUBLIC_URL + "/assets/images/BudgetTracker.png"} className="card-img-top" alt="buget-tracker-screenshot"/>
                         <div className="card-body">
                             <h5 className="card-title">Budget tracker</h5>
                             <p className="card-text">A digital budget tracker to easily keep track of funds and expenses.</p>
@@ -48,10 +49,9 @@ function Projects() {
                         </div>
                 </div>
                 
-            </div>
-            <div className="col col-sm-4 cards">
-                <div className="card">
-                    <img src={process.env.PUBLIC_URL+"/assets/images/workouttracker.png"} className="card-img-top" alt="wrkout-tracker-screenshot" />
+           
+                <div className="card col-5">
+                    <img id="picture" src={process.env.PUBLIC_URL+"/assets/images/workouttracker.png"} className="card-img-top" alt="wrkout-tracker-screenshot" />
                         <div className="card-body">
                             <h5 className="card-title">workout tracker</h5>
                             <p className="card-text">Tracks your workout routine so you can keep track and reach your goals :)</p>
@@ -60,9 +60,12 @@ function Projects() {
                             
                         </div>
                 </div>
-            </div>
-            <div className="col col-sm-4 cards">
-                <div className="card">
+
+                </div>
+          
+
+          <div className="row">
+                <div className="card col-5">
                     <img src={process.env.PUBLIC_URL+"/assets/images/WorkdayScheduler.png"} className="card-img-top" alt="workday-scheduler-screenshot" />
                         <div className="card-body">
                             <h5 className="card-title">Work Day Scheduler</h5>
@@ -72,10 +75,9 @@ function Projects() {
                             
                         </div>
                 </div>
-            </div>
-            <div className="col col-sm-4 cards">
-                <div className="card">
-                    <img src={process.env.PUBLIC_URL+"/assets/images/WeatherDashboard.png"} className="card-img-top" alt="weather dashboard app" />
+          
+                <div className="card col-5">
+                    <img id="picture" src={process.env.PUBLIC_URL+"/assets/images/WeatherDashboard.png"} className="card-img-top" alt="weather dashboard app" />
                         <div className="card-body">
                             <h5 className="card-title">Weather Dashboard</h5>
                             <p className="card-text">Geolaction based Weather app that let's users search and display current weeks forcast.</p>
@@ -84,11 +86,11 @@ function Projects() {
                             
                         </div>
                 </div>
-            </div>
-       
-        </div>
-        </section>
+                </div>
+         
         </Fade>
+        </section>
+        </>
       
     )
 }
