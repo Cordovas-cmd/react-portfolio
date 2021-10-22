@@ -140,10 +140,12 @@ text-transform: uppercase;
 /* ---------PARTICLE JS---------- */
 .tsparticles-canvas-el{
   position: absolute;
-  height: 90%;
   /* width: 100vw; */
   z-index: 1;
   color:rgb(118, 41, 190)
+}
+canvas {
+  height:90% !important
 }
 
 @media(max-width: 768px) {
@@ -173,6 +175,7 @@ background-color: rgb(67, 73, 73);
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 600px;
+  background-color: rgb(175, 175, 172) !important;
     /* width: 100%; */
     /* left: 30%; */
     /* right: 30%; */
