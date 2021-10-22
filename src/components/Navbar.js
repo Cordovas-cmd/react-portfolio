@@ -8,7 +8,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg ">
 
         <div className="container-fluid">
 
@@ -22,11 +22,14 @@ const Navbar = () => {
                     <li className="nav-item">
                         <a className="nav-link" href="#about">about.me</a>
                     </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#about">services</a>
-                    </li>
+                    {/* <li className="nav-item">
+                        <a className="nav-link" href="#about">Skills</a>
+                    </li> */}
                     <li className="nav-item">
                         <a className="nav-link" href="#portfolio">projects</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#skills">Skills</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" aria-current="page" href="#contact">contact</a>

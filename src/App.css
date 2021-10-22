@@ -20,9 +20,20 @@ body::-webkit-scrollbar-track{
 body::-webkit-scrollbar-thumb {
   background: #6649b8;
 }
+section{
+  text-shadow: 2px 2px 20px rgba(17, 189, 180, 0.5);
+  color: rgb(49, 172, 49);
+}
 nav {
   z-index: 3;
   position: fixed;
+  background-color: rgb(6, 6, 19);
+
+
+
+  
+    text-shadow: 2px 2px 20px rgba(17, 189, 180, 0.5);
+
  
 } 
 /* ------------Menu buttons-------------- */
@@ -33,6 +44,11 @@ nav a.nav-link {
   font-weight: 500;
   letter-spacing: 0.0375rem;
   cursor: pointer;
+  color:rgb(61, 211, 86)
+}
+.navbar-brand {
+  color:rgb(61, 211, 86)
+
 }
 
 nav ul li {
@@ -156,7 +172,7 @@ canvas {
 
 .portfoliobg {
   position: relative;
-background-color: rgb(67, 73, 73);
+background-color: rgb(11, 20, 49);
 
 }
 .row {
@@ -172,15 +188,18 @@ background-color: rgb(67, 73, 73);
 }
 .card {
   border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  box-shadow: 3px 3px 20px rgba(41, 23, 145, 0.5);
   text-align: center;
   width: 600px;
-  background-color: rgb(175, 175, 172) !important;
+  background-color: rgb(3, 7, 20) !important;
     /* width: 100%; */
     /* left: 30%; */
     /* right: 30%; */
     margin-bottom: 20px;
     margin: 20px;
+  }
+  svg {
+   font-size: 60px;
   }
 
   #picture {
@@ -197,10 +216,11 @@ background-color: rgb(67, 73, 73);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: rgb(236, 236, 236);
+  color: rgb(44, 172, 72);
   -webkit-text-stroke: 1px rgb(6, 7, 6);
   font-size: 1.05rem;
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(7, 5, 36);
+  margin: 20px
 }
 @media(max-width: 768px) {
   .projbtn {
@@ -213,13 +233,15 @@ background-color: rgb(67, 73, 73);
  margin-top: 0rem;
    margin-left: 20px; 
    margin-bottom: 30px; 
-   background-color: rgb(58, 59, 59);
+   background-color: rgb(11, 20, 49);
+  outline-style: solid;
+  outline-color: mediumseagreen;
 }
 
 #contactbtn {
   margin-bottom: 10px; 
   background-color: black; 
-  color: white;
+  color: rgb(23, 172, 102);
   padding: px;
 }
 
@@ -232,7 +254,7 @@ background-color: rgb(67, 73, 73);
 }
 
 .email {
-  color:rgb(189, 187, 189);
+  color:rgb(29, 160, 40);
   background-color:rgb(6, 7, 6);
   border: 3px;
   padding: 5px;
