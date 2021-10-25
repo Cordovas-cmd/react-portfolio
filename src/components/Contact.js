@@ -38,6 +38,10 @@ const Contact = () => {
                             <a href="https://www.linkedin.com/in/samuel-cordova-0495b5174/" target="__blank" className="projbtn" id="linkbtn">LinkedIn</a>
                             <br></br>
                             <br></br>
+                            <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:cd066a98-97d2-4b24-979f-92546d30d597" target="__blank" className="projbtn" id="linkbtn">Resume</a>
+                            <br></br>
+                            <br></br>
+
                             <p class="email">Email: Cordovas1337@gmail.com</p>
                      
                        </div>
